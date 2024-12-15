@@ -65,7 +65,7 @@ class DeviceTree:
 
 			self.build_prop.import_props(build_prop)
 
-		self.device_info = DeviceInfo(self.build_prop)
+		
 
 		# Generate fstab
 		fstab = None
